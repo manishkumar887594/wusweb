@@ -25,6 +25,12 @@ import ww from '../assets/img1/feature/6-screen.png';
 import ffk from '../assets/img1/feature/3-screen.png';
 import k1 from '../assets/img1/feature/loan.jpg';
 import jj from '../assets/img1/demo/ai.jpg';
+import bc from '../assets/img1/news/bw2.jpg';
+import ee from '../assets/img1/news/mm2.png';
+
+
+
+
 import React, { Component }  from 'react';
 
 function Home() {
@@ -108,9 +114,9 @@ The Worker Union Support (WUS)- A Pradivya Software Pvt Ltd Product is building 
                         </p>
                     </div>
                 </div>
-                <div className="card center" style={{"border": "none;"}}>
+                <div className="card center" style={{width:"100%","border": "none;"}}>
                     <div className="img">
-                        <img src={kl} alt="screen2"/>
+                        <img src={kl} alt="screen2" style={{width:"100%","border": "none;"}}s />
                     </div>
                     <div className="content">
                         <div className="title">
@@ -141,7 +147,7 @@ The Worker Union Support (WUS)- A Pradivya Software Pvt Ltd Product is building 
                 </div>
                 <div className="card center" style={{"border": "none"}}>
                     <div className="img">
-                        <img src={ffk} style={{width:"550px","border": "none",height:'300px'}} alt="scree3"/>
+                        <img src={ffk} style={{width:"100%","border": "none",height:'300px'}} alt="scree3"/>
                     </div>
                     <div className="content">
                         <div className="title">
@@ -304,15 +310,15 @@ $(".slider").owlCarousel({
                                     <p>Nasdaq Entrepreneurial Center invited Mr. Prasoon Sharma- Founder &amp; CEO, WUS for its new program, Circles: an individualized group mentorship &amp; coaching experience for founders and entrepreneurs. Open to selected Founder &amp; Entrepreneur community, a Circle is a multi-week commitment to solving entrepreneurs most pressing problems alongside industry expert mentors. Through this highly curated experience, Founders &amp; Entrepreneurs will build peer connections, clear next steps and the capacity to be productive &amp; resourceful while facing immediate changing circumstances and adversity.
                                     </p>
                                     <div className="flex-container-publish">
-                                        <div>
+                                        <div className="center ">
                                             <a href="https://www.businesswireindia.com/wus-invited-by-nasdaq-entrepreneurial-center-69286.html" target="_blank" rel="noopener">
-                                                <img src="<?= base_url() ?>images/news/bw2.jpg" alt="WUS in news" className="mediaSizenew img"/></a>
+                                                <img src={bc} alt="WUS in news" style={{height:'75px'}} className=" mediaSizenew img"/></a>
                                         </div>
-                                        <div>
+                                        <div className="center ">
                                             <a href="https://www.mangaloremirror.com/wus-invited-by-nasdaq-entrepreneurial-center/" target="_blank" rel="noopener">
-                                                <img src="<?= base_url() ?>images/news/mm2.png" alt="WUS in news" className="mediaSizeWiHI img"/></a>
+                                                <img src={ee} alt="WUS in news" style={{height:'75px',width:'200px'}} className="center mediaSizeWiHI img"/></a>
                                         </div>
-                                        <div>
+                                        <div className="center ">
                                             <a href="https://www.thetruthone.com/business-wire-news/wus-invited-by-nasdaq-entrepreneurial-center/" target="_blank" rel="noopener">
                                                 <img src="<?= base_url() ?>images/news/tone.png" alt="WUS in news" className="mHi img"/></a>
                                         </div>
@@ -326,7 +332,7 @@ $(".slider").owlCarousel({
                         </div>
                        
                         <div className="image-slide">
-                            <div className="image">
+                            <div className="image center">
                                 <div className="hidden-xs hidden-sm fadeInLeft one_quarter first fadeLeft">
                                     <img src="<?= base_url() ?>images/news/news1.jpeg" alt="WUS in news"/>
                                 </div>
@@ -345,7 +351,7 @@ $(".slider").owlCarousel({
                                         </div>
                                         <div className='center'>
                                             <a href="https://www.wrde.com/story/43382355/how-nyu-wagner-alum-is-empowering-indian-blue-collar-workers" target="_blank" rel="noopener" className="imgBlue">
-                                                <img src={n} alt="WUS in WRDE " style={{height:'200px'}}className="mHi center img"/></a>
+                                                <img src={n} alt="WUS in WRDE " style={{height:'200px'}}className="center mHi center img"/></a>
                                         </div>
                                         <div className='center'>
                                             <a href="https://www.wicz.com/story/43382355/how-nyu-wagner-alum-is-empowering-indian-blue-collar-workers" target="_blank" rel="noopener" className="imgBlue">
