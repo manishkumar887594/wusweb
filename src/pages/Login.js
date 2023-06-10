@@ -7,19 +7,16 @@ import cp from '../img/CP.jpg';
 function Login() {
     return(<div>
 
-<section className="card" style={{"background": "none;"}}>
-    <div className="container">
-        <div className="row">
-            <div className="col-sm-7 lg-8 g-info" >
-            <img src={cp} alt="Login image"  style={{'object-fit': 'fill', 'object-position': 'left','height':'100%','width':'100%'}}/>
-          </div>
-            <div className="col-sm-5 lg-4  text-black">
-                <div className="d-flex align-items-center h-custom-2 px-5 ms-xl-4 " style={{'height': '100%','width': '100%'}}>
+
+            <div className='col-6 '><img src={cp} alt="Login image"  style={{'object-fit': 'fill', 'object-position': 'left','height':'100%','width':'100%'}}/>
+           </div>
+            <div className="col-4 ">
+                <div className="d-flex" style={{'height': '100%','width': '115px'}}>
 
 
-                    <form className="rounded align-items-left bg-white shadow p-5" action="<?php echo base_url('/Login/GenrateOTP') ?>" method="post" style={{"width": "23rem"}}>
+                    <form className="rounded align-items-left bg-white shadow p-5" action="<?php echo base_url('/Login/GenrateOTP') ?>" method="post" >
                        
-                        <><div className="text-center" style={{ "letter-spacing": "1px" }}>
+                        <><div className="text-center" >
                            </div><div className="card-body">
                                 <h5 className="card-title">Sign In</h5>
                             </div><div className="form-outline mb-4">
@@ -31,27 +28,42 @@ function Login() {
                     </form>
                 </div>
             </div>
-        </div>
-        </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+        
+     
 
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
 
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
 		
 
 
-        </section>
-<br></br>
-<br></br>
-
-<br></br>
-<br></br>
+     
 
 
 
-        <div className="container bg-info" style={{width:"100%"}}>
+<div className="container-fluid bg-white" style={{width:"100%",'position': "fixed",
+  
+  'bottom': 0,
+  'width': "100%"}}>
+
+<div className="container-fluid bg-info" style={{width:"100%"}}>
 
 <div className="container ">
-	<div className="row lg-3">
-		<div className="col-lg-3 col-md-6">
+	<div className="row g-5">
+		<div className="col-lg-4 col-md-6">
 			<h4 className="text-white mb-3">Quick Link</h4>
 			<a className="btn btn-link" href="">About Us</a>
 			<a className="btn btn-link" href="">Contact Us</a>
@@ -71,12 +83,20 @@ function Login() {
 				<a className="btn btn-outline-light btn-social" href=""><i className="fab fa-youtube"></i></a>
 				<a className="btn btn-outline-light btn-social" href=""><i className="fab fa-linkedin-in"></i></a>
 			</div>
-		</div>
-   
-	   </div>
-	   </div> </div>
 
-        </div>
+		
+<div><button onclick="window.location.href = 'https://ide.geeksforgeeks.org';">chat</button></div>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+</div></div></div></div></div></div>
+
+      
 
 
  );}

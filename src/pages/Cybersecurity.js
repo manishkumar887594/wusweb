@@ -27,7 +27,7 @@ function Cs() {
              <div className="owl-carousel header-carousel position-relative">
                  
                  <div className="owl-carousel-item position-relative">
-                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src={b} style={{width:"83%",height:'300px'}} alt=""/>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp; <img src={b} style={{width:"95%",height:'300px'}} alt=""/>
                      <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" >
                          <div className="container">
                              
@@ -105,8 +105,8 @@ function Cs() {
                              <div className="position-relative overflow-hidden">
                                 <div><div className="row">
      </div>
-                                <div className="col-4"></div>     
-                                     <div className="col-4"><img className="img center" src={r} style={{height:'300px',width:'950px'}} alt=""/></div>
+                                    
+                                     <div className="col-6"></div>
                                 </div> 
                                  <div className="w-400 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                  </div>
@@ -144,10 +144,10 @@ function Cs() {
        <div className="carousel-inner">
         
          <div className="carousel-item">
-           <img className="d-block w-100" src={j} alt="Second slide"/>
+           <img className="img-fluid" src={j} alt="Second slide"/>
          </div>
          <div className="carousel-item">
-           <img className="d-block w-100" src={k} alt="Third slide"/>
+           <img className="img-fluid" src={k} alt="Third slide"/>
          </div>
          <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -232,24 +232,7 @@ function Cs() {
                              </div>
                          </div>
                      </div>
-                     <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                         <div className="team-item bg-light">
-                             <div className="overflow-hidden">
-                                 <img className="img-fluid" src={k} style={{height:"250px"}}  alt=""/>
-                             </div>
-                             <div className="position-relative d-flex justify-content-center" >
-                                 <div className="bg-light d-flex justify-content-center pt-2 px-1">
-                                     <a className="btn btn-sm-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                     <a className="btn btn-sm-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                     <a className="btn btn-sm-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
-                                 </div>
-                             </div>
-                             <div className="text-center p-4">
-                                 <h5 className="mb-0">Ansh vaid</h5>
-                                 <small>Security Assesment engineer</small>
-                             </div>
-                         </div>
-                     </div>
+                     
                  </div>
              </div>
          </div>
@@ -260,9 +243,9 @@ function Cs() {
        
        <div className="container-fluid bg-info" style={{width:"100%"}}>
 
-             <div className="container ">
-                 <div className="row g-5">
-                     <div className="col-lg-4 col-md-6">
+             <div className="container-fluid ">
+                 <div className="row g-5 container-fluid">
+                     <div className="col-lg-4 col-md-6 container-fluid">
                          <h4 className="text-white mb-3">Quick Link</h4>
                          <a className="btn btn-link" href="">About Us</a>
                          <a className="btn btn-link" href="">Contact Us</a>
@@ -285,7 +268,7 @@ function Cs() {
                      </div>
                 
                     </div>
-                    h</div> </div></div></div></div>
+                    </div> </div></div></div></div>
              <div className="container">
                  <div className="copyright">
                      <div className="row">

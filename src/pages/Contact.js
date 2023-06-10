@@ -9,8 +9,13 @@ function contact() {
   return(
     	<section className="ftco-section" >
 		<div className="container">
-			<div className="row justify-content-center">
-				<div className="col-md-6 text-center mb-5">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+	
+	 <script     src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<div className="row justify-content-center" style={{width:"100%"}}>
+				<div className="col-md-6  mb-5">
 					<h2 className="heading-section">Contact Form </h2>
 				</div>
 			</div>
@@ -22,14 +27,14 @@ function contact() {
 							<div className="col-lg-5">
 								<div className="contact-wrap w-100 p-md-5 p-4">
 								
-									<div className='col-6'><img src={a} alt="" width="800%" height="250"/></div>
+									<div className='col-6'><img src={a} alt="" width="250vw" height="250"/></div>
 										<div className="col-md-4">
-											<div className="dbox w-100 d-flex align-items-start">
+											<div className="dbox  d-flex align-items-start">
 						        		<div className="text">
 							            <p><span>Email:</span> <a href="mailto:wus@workerunionsupport.com">wus@workerunionsupport.com</a></p>
 							          </div>
 						          </div>
-										</div>
+										</div><br></br><br></br><br></br>
 										<div className="col-md-4">
 											<div className="dbox w-100 d-flex align-items-start">
 						        		<div className="text">
@@ -38,31 +43,31 @@ function contact() {
 						          </div>
 										</div>
 									</div>
-									<form method="POST" id="contactForm" name="contactForm" className="contactForm">
+					<br></br>	<br></br>			<form method="POST" id="contactForm" name="contactForm" className="contactForm">
 										<div className="row">
 											<div className="col-md-12">
 												<div className="form-group">
-													<input type="text" className="form-control" style={{width:'600px'}} name="name" id="name" placeholder="Name"/>
+													<input type="text" className="form-control" style={{width:'250px'}} name="name" id="name" placeholder="Name"/>
 												</div>
 											</div>
 											<div className="col-md-12"> 
 												<div className="form-group">
-													<input type="email" className="form-control" name="email" id="email" style={{width:'600px'}}  placeholder="Email"/>
+													<input type="email" className="form-control" name="email" id="email" style={{width:'250px'}}  placeholder="Email"/>
 												</div>
 											</div>
 											<div className="col-md-12">
 												<div className="form-group">
-													<input type="text" className="form-control" name="subject" id="subject" style={{width:'600px'}} placeholder="Subject"/>
+													<input type="text" className="form-control" name="subject" id="subject" style={{width:'250px'}} placeholder="Subject"/>
 												</div>
 											</div>
 											<div className="col-md-12">
 												<div className="form-group">
-													<textarea name="message" className="form-control" id="message" style={{width:'600px'}} cols="30" rows="4" placeholder="Create a message here"></textarea>
+													<textarea name="message" className="form-control" id="message" style={{width:'250px'}} cols="30" rows="4" placeholder="Create a message here"></textarea>
 												</div>
 											</div>
 											<div className="col-md-12">
 												<div className="form-group">
-													<input type="submit" value="Send Message" align="centre" className="btn btn-primary"/>
+													<input type="submit" value="Send Message" align="centre" className="btn center btn-primary"/>
 													<div className="submitting"></div>
 												</div>
 											</div>
@@ -110,7 +115,7 @@ function contact() {
 		</div>
    
 	   </div>
-	   h</div> </div>
+	   </div> </div>
 		
 
 	</section>
